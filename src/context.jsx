@@ -116,6 +116,20 @@ export const ProductProvider = ({ children }) => {
                 })
                 await getProduct()
                 navigate('/')
+                setName("");
+                setUsername("");
+                setEmail("");
+                setStreet("");
+                setSuite("");
+                setCity("");
+                setZipcode("");
+                setLat("");
+                setLng("");
+                setphone("");
+                setWebsite("");
+                setCompname("");
+                setcompcp("");
+                setCompbs("");
             }
             catch (error) {
                 console.error("Error message in post", error)
