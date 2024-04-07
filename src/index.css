@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+    background-color: yellow;
+}
+
+.home h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+    margin: 0;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    border: 2px solid gold;
+    box-shadow: 5px 5px 50px red;
+}
+
+.buttons {
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.deletebtn {
+    cursor: pointer;
+}
+
+.editbtn {
+    cursor: pointer;
+}
+
+.textfeild {
+    padding: 10px 20px;
+}
+
+.namefeild {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.addressfeild {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.contactfeild {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.companyfeild {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.editheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editheading h4 {
+    padding: 5px;
+    background-color: red;
+}
+
+.btn {
+    padding: 0;
+    margin: 0;
+}
+
+.btn button {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.warndiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    background-color: chartreuse;
+}
+
+.warning p {
+    margin: 0;
+    color: red;
+    font-weight: 900;
+    font-size: large;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.errordiv {
+    padding-top: 150px;
+}
+
+.errordiv img {
+    width: 500px;
+    height: 300px;
+}
+
+.errordiv h1 {
+    text-align: center;
+    font-weight: 900;
+}
+
+.errordiv p {
+    color: red;
+    font-size: medium;
+    font-weight: 700;
+    text-align: center;
+}
