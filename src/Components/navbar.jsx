@@ -21,7 +21,6 @@ export function Navbar() {
                 <h4 style={location.pathname === '/add' ? handlestyle : {}} onClick={() => {
                     setOnstyle(true)
                     navigate('/add')
-                    window.location.reload()
                 }} >ADD DATA</h4>
             </div>
         </div>
