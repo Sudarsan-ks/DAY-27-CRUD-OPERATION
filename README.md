@@ -1,8 +1,8 @@
-# Initialise the project with:
+# Initialise the project with
 
 <h4>npm creat vite projecName</h4>
 <p>
-  After that it ask gives optiion in that select <h3>Javascript</h3> and <h3>React</h3>
+  After that it gives optiion for selection in that you can select: <h3>Javascript</h3>, <h3>React</h3>
 </p>
 <h4>cd projectName</h4>
 <h4>npm install</h4>
